@@ -96,7 +96,16 @@ p {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 10px 25px rgba(255, 0, 85, 0.4);
 }
+a {
+    color: #ffcc00; /* яскравий золотий */
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+a:hover {
+    color: #00ffd5; /* неоновий бірюзовий */
+    text-shadow: 0 0 6px rgba(0, 255, 213, 0.6);
+}
 /* ================= CARDS ================= */
 
 .card {
